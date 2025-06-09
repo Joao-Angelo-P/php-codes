@@ -9,7 +9,7 @@ public static array $c;
 function __construct($a = 10, $b = "novo"){
 $this->a = $a;
 $this->b = $b;
-$this::$c = [0 => "Item1", 1 => "Item2", 2 => "Item3"]; 
+self::$c = [0 => "Item1", 1 => "Item2", 2 => "Item3"]; 
 }
 } 
 
